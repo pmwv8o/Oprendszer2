@@ -1,4 +1,4 @@
-<form action="http://localhost/beadando/alcoholscript.php"
+<form action="alcoholscript.php"
       method="POST"
       accept-charset="utf-8">
 

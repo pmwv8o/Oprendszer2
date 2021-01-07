@@ -1,4 +1,4 @@
-<form action="http://localhost/beadando/discountscript.php"
+<form action="discountscript.php"
       method="POST"
       accept-charset="utf-8">
 

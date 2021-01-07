@@ -1,4 +1,4 @@
-<form action="http://localhost/beadando/softdrinksscript.php"
+<form action="softdrinksscript.php"
       method="POST"
       accept-charset="utf-8">
 

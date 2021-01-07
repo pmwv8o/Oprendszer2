@@ -43,7 +43,7 @@ require_once './protected/database.php';
                 <td><?=$record['price']?> Ft</td>
                 <td><?=$record['offer']?>%</td>
                 <td><?=$record['discountprice']?> Ft</td>
-                <td><a href="http://localhost/beadando/deletediscount.php?id=<?=$record['id']?>"><button>Törlés</button></a></td>
+                <td><a href="deletediscount.php?id=<?=$record['id']?>"><button>Törlés</button></a></td>
             </tr>
             <?php endforeach;?>
         </tbody>

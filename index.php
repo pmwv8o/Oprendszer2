@@ -8,22 +8,10 @@ session_start();
     <title>Beadandó</title>
     </head>
     <body>
-    <center>
-        <!--<button href="home.php">public</button>-->
-        
-        
-    <article><?php require_once PROTECTED_DIR.'login.php';?></article>
-    <footer>
-        <?php 
-        require_once PROTECTED_DIR.'helper.php';
-        if(item_exists($_GET,'M','logout')){
-                                session_unset();
-             header('Location: '.BASE_URL);
-        }
-        ?>
-    </footer>
-        
-        
+        <center>
+            <button onclick="location.href = 'home.php';">FELHASZNÁLÓ</button><br>   
+            <button onclick="location.href = 'admin.php';">ADMIN</button>
+          
         </center>
     </body>
 </html>

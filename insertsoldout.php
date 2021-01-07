@@ -1,4 +1,4 @@
-<form action="http://localhost/beadando/soldoutscript.php"
+<form action="soldoutscript.php"
       method="POST"
       accept-charset="utf-8">
 

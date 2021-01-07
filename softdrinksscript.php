@@ -1,6 +1,6 @@
 <?php 
     if(!array_key_exists('submit', $_POST)){
-        header('Location: http://localhost/beadando/insertsoftdrinks.php');
+        header('Location: insertsoftdrinks.php');
     }
     
     $valid = true;
@@ -40,7 +40,7 @@
         $success = insert($query, $params);
         
         if($success){
-            header('Location: http://localhost/beadando/adminsoftdrinks.php');
+            header('Location: adminsoftdrinks.php');
         }
         else{
             echo "Sikeretelen rögzítés!";

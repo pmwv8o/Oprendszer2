@@ -1,6 +1,6 @@
 <?php 
     if(!array_key_exists('submit', $_POST)){
-        header('Location: http://localhost/beadando/insertdiscount.php');
+        header('Location: insertdiscount.php');
     }
     
     $valid = true;
@@ -46,7 +46,7 @@
         $success = insert($query, $params);
         
         if($success){
-            header('Location: http://localhost/beadando/admindiscount.php');
+            header('Location: admindiscount.php');
         }
         else{
             echo "Sikeretelen rögzítés!";

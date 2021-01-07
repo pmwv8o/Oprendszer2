@@ -1,6 +1,6 @@
 <?php 
     if(!array_key_exists('submit', $_POST)){
-        header('Location: http://localhost/beadando/insertsoldout.php');
+        header('Location: insertsoldout.php');
     }
     
     $valid = true;
@@ -34,7 +34,7 @@
         $success = insert($query, $params);
         
         if($success){
-            header('Location: http://localhost/beadando/adminsoldout.php');
+            header('Location: adminsoldout.php');
         }
         else{
             echo "Sikeretelen rögzítés!";
